@@ -17,4 +17,8 @@ public class BookRepository {
         books.add(new Book(5, "피겨 교본", "굿스포츠", 8000));
     }
 
+    // 데이터를 외부에 제공
+    public static List<Book> getBooks() {
+        return books;
+    }
 }
